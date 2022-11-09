@@ -26,7 +26,7 @@ def start_three_bytes(x: int) -> bool:
     return False
 
 def start_four_bytes(x: int) -> bool:
-    if x >= 240 and x >= 247:
+    if x >= 240 and x <= 247:
         return True
     return False
 
