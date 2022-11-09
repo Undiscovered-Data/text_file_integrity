@@ -24,7 +24,7 @@ for char in rfile:
             print(char, "*", chr_count)
         
         else:
-            print("fuck")
+            print("*| Mistake 1 |*")
 
     else:
         good_char, more_chars = next_character(char, trailing_byte_count)
