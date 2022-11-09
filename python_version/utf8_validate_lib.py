@@ -57,7 +57,7 @@ def first_character(the_char: int):
     if has_four_b:
         return (True, 3)
     else:
-        print("You fucked up")
+        print("*| Mistake 2 |*")
 
 def next_character(the_char: int, trailing_byte_count: int):
     trailing_byte_count -= 1
