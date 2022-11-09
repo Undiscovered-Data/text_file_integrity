@@ -1,0 +1,15 @@
+[package]
+name = "text_integrity"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[lib]
+name = "utf8lib"
+path = "src/utf8lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
